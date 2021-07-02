@@ -7,5 +7,5 @@ Coupon Bonds represent interest payments at equal intervals till maturity unlike
 
 Wiener Process or the Brownian motion is an important assumption to model the stock prices. The Wiener Process python implementation involves simply plotting the various datapoints drawn by cumulatively adding a random value from a normal distribution with mean as 0 and variance as dt ( the timestep provided ). The wiener process may result in negative values for the stock values which do not make sense hence paving way for the geometric random walk process.
 
-
+The Value at Risk Python implementation for the Citigroup stock data for a given timeframe helps us understand the maximum amount of money we may lose based on a specified confidence interval. The main assumption for this VaR calculation was that the returns are normally distributed.
 
